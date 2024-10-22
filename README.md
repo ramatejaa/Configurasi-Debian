@@ -1,17 +1,17 @@
 # Configurasi-Debian
 
------Configurasi IP-----
-  nano /etc/network/interfaces
-    /etc/init.d/networking restart
----------------------------------------------------------
+Configurasi IP
+- nano /etc/network/interfaces
+- /etc/init.d/networking restart
 
------Configurasi DHCP-----
+
+Configurasi DHCP
   apt-cdrom add
     apt-get install isc-dhcp-server
       nano /etc/dhcp/dhcpd.conf
         nano /etc/default/isc-dhcp-server
           service isc-dhcp-server
----------------------------------------------------------
+
 
 -----Configurasi SSH-----
   apt-cdrom add
