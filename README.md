@@ -1,4 +1,4 @@
-# Configurasi-Debian
+# Bassic Configurasi Debian
 
 # Configurasi IP
 - nano /etc/network/interfaces
