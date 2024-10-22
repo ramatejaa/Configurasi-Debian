@@ -47,6 +47,6 @@
 - > ls
 - nano index.html
 - cd /etc/apache2/sites-enabled/
-- # a2ensite rama.conf
+- #a2ensite rama.conf
 - a2dissite 000-default.conf (menonaktifkan direktori defaultnya)
 - service apache2 restart
