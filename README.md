@@ -1,5 +1,4 @@
 # Configurasi-Debian
----------------------
 
 -----Configurasi IP-----
   nano /etc/network/interfaces
