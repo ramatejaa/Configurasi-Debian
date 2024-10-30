@@ -1,11 +1,11 @@
 # Bassic Configurasi Debian
 
-###Configurasi IP
+### Configurasi IP
 - nano /etc/network/interfaces
 - /etc/init.d/networking restart
 
 
-###Configurasi DHCP
+### Configurasi DHCP
 - apt-cdrom add
 - apt-get install isc-dhcp-server
 - nano /etc/dhcp/dhcpd.conf
@@ -13,13 +13,13 @@
 - service isc-dhcp-server
 
 
-###Configurasi SSH
+### Configurasi SSH
   apt-cdrom add
     apt-get install ssh
       nano /etc/ssh/sshd_config
 
 
-###Configurasi DNS
+### Configurasi DNS
 - apt-cdrom add
 - apt-get install bind9
 - cd /etc/bind
@@ -36,7 +36,7 @@
 - apt-get install dnsutils
 
 
-###Configurasi Webserver
+### Configurasi Webserver
 - apt-cdrom add
 - apt-get install apache2 php
 - cd /etc/apache2/sites-available/
