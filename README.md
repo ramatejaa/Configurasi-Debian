@@ -1,5 +1,6 @@
 # Bassic Configurasi Debian
 
+
 ### Configurasi Network Interface
 1. Edit the network interface file:
 ```bash
@@ -10,8 +11,6 @@ nano /etc/network/interfaces
 /etc/init.d/networking restart
 ```
 #
-
-
 
 
 ### Configurasi DHCP
@@ -38,9 +37,6 @@ service isc-dhcp-server
 #
 
 
-
-
-
 ### Configurasi SSH
 1. Add installation media (if required):
 ```bash
@@ -55,8 +51,6 @@ apt-get install ssh
 nano /etc/ssh/sshd_config
 ```
 #
-
-
 
 
 ### Configurasi DNS
@@ -111,11 +105,6 @@ apt-cdrom add
 apt-get install dnsutils
 ```
 #
-
-
-
-
-
 
 
 ### Configurasi Webserver
