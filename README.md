@@ -10,6 +10,10 @@ nano /etc/network/interfaces
 /etc/init.d/networking restart
 ```
 #
+
+
+
+
 ### Configurasi DHCP
 1. Add installation media (if required):
 ```bash
@@ -32,6 +36,11 @@ nano /etc/default/isc-dhcp-server
 service isc-dhcp-server
 ```
 #
+
+
+
+
+
 ### Configurasi SSH
 1. Add installation media (if required):
 ```bash
@@ -46,6 +55,9 @@ apt-get install ssh
 nano /etc/ssh/sshd_config
 ```
 #
+
+
+
 
 ### Configurasi DNS
 1. Add installation media (if required):
@@ -98,6 +110,13 @@ apt-cdrom add
 ```bash
 apt-get install dnsutils
 ```
+#
+
+
+
+
+
+
 
 ### Configurasi Webserver
 1. Add installation media (if required):
